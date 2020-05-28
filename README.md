@@ -1,4 +1,4 @@
-# covidata
+# CoviData
 
 A new Flutter application.
 
