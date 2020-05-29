@@ -1,6 +1,6 @@
 # CoviData
 
-<b>COVID-19</b> olarak adlandırılan virüsün güncel verilerini ülke ülke takip edebilceğiniz, Flutter'da geliştirilmiş bir mobil uygulama.
+<b>COVID-19</b> olarak adlandırılan virüsün güncel verilerini ülke ülke takip edebileceğiniz, Flutter'da geliştirilmiş bir mobil uygulama.
     
     .
     ├── CoviDataWebService                      # gRPC üzerinden haberleşen web servisimizin kodları
