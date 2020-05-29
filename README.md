@@ -1,16 +1,19 @@
 # CoviData
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<b>COVID-19</b> olarak adlandırılan virüsün güncel verilerini ülke ülke takip edebilceğiniz, Flutter'da geliştirilmiş bir mobil uygulama.
+    
+    .
+    ├── CoviDataWebService                      # gRPC üzerinden haberleşen web servisimizin kodları
+    ├── CoviDataWebService_JSON                 # JSON üzerinden haberleşen web servisimizin kodları
+    
+## Ekran Görüntüleri
+<p align="center">
+  <img src="https://i.imgur.com/vxjngpJ.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/dfLq4Et.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/UO9k0bB.jpg" width="216" height="468">
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/ZDW8eYj.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/WQSR0YQ.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/KNimoJN.jpg" width="216" height="468">
+</p>
