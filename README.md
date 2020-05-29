@@ -8,12 +8,12 @@
     
 ## Ekran Görüntüleri
 <p align="center">
-  <img src="https://i.imgur.com/vxjngpJ.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.imgur.com/dfLq4Et.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.imgur.com/UO9k0bB.jpg" width="216" height="468">
+  <img src="https://i.imgur.com/vxjngpJ.jpg" width="270" height="585">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/dfLq4Et.jpg" width="270" height="585">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/UO9k0bB.jpg" width="270" height="585">
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/ZDW8eYj.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.imgur.com/WQSR0YQ.jpg" width="216" height="468">&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.imgur.com/KNimoJN.jpg" width="216" height="468">
+  <img src="https://i.imgur.com/ZDW8eYj.jpg" width="270" height="585">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/WQSR0YQ.jpg" width="270" height="585">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.imgur.com/KNimoJN.jpg" width="270" height="585">
 </p>
