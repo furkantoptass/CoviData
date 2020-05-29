@@ -50,7 +50,7 @@ class CoronaService {
   }
 
 
-  //JSONDA HIZLI CALIŞAN KISIM
+  //JSOND FASTER THAN GRPC
 
   /*Future<Covid19> fetchCovidData() async {
     try {
