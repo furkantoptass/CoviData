@@ -1,0 +1,35 @@
+{
+  "name": "CoviData",
+  "version": "1.0.0",
+  "description": "CoviData Web Service for CoviData app",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --testTimeout=10000"
+  },
+  "author": "Halil Ibrahim Durmus",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "verbose": true
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
+    "express": "^4.17.1",
+    "got": "^10.7.0",
+    "grpc": "^1.24.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jest": "^25.5.4",
+    "supertest": "^4.0.2"
+  }
+}
