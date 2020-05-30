@@ -49,19 +49,13 @@ class CoronaService {
     }
   }
 
-
   //JSOND FASTER THAN GRPC
 
   /*Future<Covid19> fetchCovidData() async {
     try {
       final url = "http://10.0.2.2:8080";
       final json = await _fetchJSON(url);
-      Stopwatch stopwatch = Stopwatch()..start();
-      var t1 = DateTime.now().millisecondsSinceEpoch;
       final covidData = Covid19.fromJson(json);
-      var t2 = DateTime.now().millisecondsSinceEpoch;
-      print((t2 - t1).toString());
-      print('Task executed in ${stopwatch.elapsed}');
 
       if (covidData == null) throw ServerException();
 

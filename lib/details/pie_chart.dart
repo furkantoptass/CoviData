@@ -1,16 +1,16 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
-import 'indicator.dart';
+import 'package:covidata/constants.dart';
+import 'package:covidata/details/indicator.dart';
 
-class PieChartSample2 extends StatefulWidget {
+class MyPieChart extends StatefulWidget {
   final int confirmed;
   final int sick;
   final int recovered;
   final int deaths;
 
-  const PieChartSample2({
+  const MyPieChart({
     Key key,
     @required this.confirmed,
     @required this.sick,
@@ -19,10 +19,10 @@ class PieChartSample2 extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<StatefulWidget> createState() => PieChart2State();
+  State<StatefulWidget> createState() => PieChartState();
 }
 
-class PieChart2State extends State<PieChartSample2> {
+class PieChartState extends State<MyPieChart> {
   int touchedIndex;
   List<PieChartSectionData> showingSections() {
     return List.generate(3, (i) {

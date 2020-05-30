@@ -149,7 +149,7 @@ Widget buildBodyWidget(
         dataSource: _chartData,
         xValueMapper: (ChartData data, _) => data.x,
         yValueMapper: (ChartData data, _) => data.y,
-        width: 0.5,
+        width: 1,
         name: 'Yeni Vaka',
       ),
     ];
@@ -157,13 +157,13 @@ Widget buildBodyWidget(
 
   return Column(
     children: <Widget>[
-      PieChartSample2(
+      MyPieChart(
         confirmed: _countryData.confirmed,
         sick: _countryData.sick,
         recovered: _countryData.recovered,
         deaths: _countryData.deaths,
       ),
-      const SizedBox(height: 20.0),
+      const SizedBox(height: 10.0),
       Card(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -197,7 +197,7 @@ Widget buildBodyWidget(
           ),
         ),
       ),
-      SizedBox(height: 20.0),
+      SizedBox(height: 10.0),
       Card(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -231,7 +231,7 @@ Widget buildBodyWidget(
           ),
         ),
       ),
-      SizedBox(height: 30.0),
+      SizedBox(height: 20.0),
       MyChart(
         text: 'Toplam',
         series: getLineSeries(),
@@ -242,7 +242,7 @@ Widget buildBodyWidget(
         seriesType: 'column',
         columnSeries: getColumnSeries(),
       ),
-      SizedBox(height: 40.0),
+      SizedBox(height: 30.0),
     ],
   );
 }

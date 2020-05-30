@@ -62,14 +62,27 @@ class _HomeScreenState extends State<HomeScreen> {
           return Padding(
             padding: const EdgeInsets.only(top: 16, bottom: 16),
             child: Center(
-              child: const Text('Veriler alınırken bir hata oluştu.'),
+              child: Column(
+                children: <Widget>[
+                  const Text('Veriler alınırken bir hata oluştu.'),
+                  IconButton(
+                    onPressed: () {
+                      setState(() {
+                        _fetchData();
+                      });
+                    },
+                    color: kPrimaryColor,
+                    icon: Icon(Icons.refresh),
+                    iconSize: 32.0,
+                  ),
+                ],
+              ),
             ),
           );
         } else {
           if (_data == null) _data = snapshot.data;
-          final Covid19 _todaysUpdate = snapshot.data;
           final CountryData _countryData =
-              _todaysUpdate.countryData[kCountries[_dropdownValue]].last;
+              _data.countryData[kCountries[_dropdownValue]].last;
 
           return Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -219,7 +232,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       Spacer(),
                       RaisedButton(
-                        // TODO: Veriler yüklenirken butonu devredışı bırak
                         onPressed: () {
                           Navigator.push(
                             context,
@@ -274,7 +286,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         "Virüsün Yayılımı",
                         style: kTitleTextstyle,
                       ),
-
                     ],
                   ),
                   Container(
